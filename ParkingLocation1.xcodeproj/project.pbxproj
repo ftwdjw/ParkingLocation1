@@ -29,7 +29,6 @@
 		1BF5E5D117EF1A9600612F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5E5D017EF1A9600612F8D /* AppDelegate.m */; };
 		1BF5E5D417EF1A9600612F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5D217EF1A9600612F8D /* Main.storyboard */; };
 		1BF5E5D717EF1A9600612F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5E5D617EF1A9600612F8D /* ViewController.m */; };
-		1BF5E5D917EF1A9600612F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5D817EF1A9600612F8D /* Images.xcassets */; };
 		1BF5E5E017EF1A9600612F8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5DF17EF1A9600612F8D /* XCTest.framework */; };
 		1BF5E5E117EF1A9600612F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C017EF1A9600612F8D /* Foundation.framework */; };
 		1BF5E5E217EF1A9600612F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C417EF1A9600612F8D /* UIKit.framework */; };
@@ -78,7 +77,6 @@
 		1BF5E5D317EF1A9600612F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BF5E5D517EF1A9600612F8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1BF5E5D617EF1A9600612F8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1BF5E5D817EF1A9600612F8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BF5E5DE17EF1A9600612F8D /* ParkingLocation1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingLocation1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF5E5DF17EF1A9600612F8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1BF5E5E717EF1A9600612F8D /* ParkingLocation1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkingLocation1Tests-Info.plist"; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 				1BF5E5D217EF1A9600612F8D /* Main.storyboard */,
 				1BF5E5D517EF1A9600612F8D /* ViewController.h */,
 				1BF5E5D617EF1A9600612F8D /* ViewController.m */,
-				1BF5E5D817EF1A9600612F8D /* Images.xcassets */,
 				1B80956017EF39A700FADDE7 /* Images-2.xcassets */,
 				1BF5E5C717EF1A9600612F8D /* Supporting Files */,
 			);
@@ -301,7 +298,6 @@
 				1B80957D17EF3B4D00FADDE7 /* ParkingIcon-512x512.png in Resources */,
 				1B80957C17EF3B4D00FADDE7 /* Parking8-640x960.png in Resources */,
 				1B80956117EF39A700FADDE7 /* Images-2.xcassets in Resources */,
-				1BF5E5D917EF1A9600612F8D /* Images.xcassets in Resources */,
 				1B80957517EF3B4D00FADDE7 /* parkingIcon-58.png in Resources */,
 				1B80957917EF3B4D00FADDE7 /* parkingIconLarge.png in Resources */,
 				1B80957717EF3B4D00FADDE7 /* parkingIcon-80.png in Resources */,
@@ -460,8 +456,8 @@
 		1BF5E5F017EF1A9600612F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-6";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-6";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkingLocation1/ParkingLocation1-Prefix.pch";
 				INFOPLIST_FILE = "ParkingLocation1/ParkingLocation1-Info.plist";
@@ -473,8 +469,8 @@
 		1BF5E5F117EF1A9600612F8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-6";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-6";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkingLocation1/ParkingLocation1-Prefix.pch";
 				INFOPLIST_FILE = "ParkingLocation1/ParkingLocation1-Info.plist";
