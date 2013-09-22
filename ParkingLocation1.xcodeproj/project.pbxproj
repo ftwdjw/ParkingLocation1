@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B80956117EF39A700FADDE7 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956017EF39A700FADDE7 /* Images-2.xcassets */; };
+		1B80957117EF3B4D00FADDE7 /* parkingIcon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956317EF3B4D00FADDE7 /* parkingIcon-114.png */; };
+		1B80957217EF3B4D00FADDE7 /* parkingIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956417EF3B4D00FADDE7 /* parkingIcon-120.png */; };
+		1B80957317EF3B4D00FADDE7 /* parkingIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956517EF3B4D00FADDE7 /* parkingIcon-29.png */; };
+		1B80957417EF3B4D00FADDE7 /* parkingIcon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956617EF3B4D00FADDE7 /* parkingIcon-57.png */; };
+		1B80957517EF3B4D00FADDE7 /* parkingIcon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956717EF3B4D00FADDE7 /* parkingIcon-58.png */; };
+		1B80957617EF3B4D00FADDE7 /* parkingIcon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956817EF3B4D00FADDE7 /* parkingIcon-72.png */; };
+		1B80957717EF3B4D00FADDE7 /* parkingIcon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956917EF3B4D00FADDE7 /* parkingIcon-80.png */; };
+		1B80957817EF3B4D00FADDE7 /* parkingIcon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956A17EF3B4D00FADDE7 /* parkingIcon-Small-50.png */; };
+		1B80957917EF3B4D00FADDE7 /* parkingIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956B17EF3B4D00FADDE7 /* parkingIconLarge.png */; };
+		1B80957A17EF3B4D00FADDE7 /* Parking8-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956D17EF3B4D00FADDE7 /* Parking8-320x480.png */; };
+		1B80957B17EF3B4D00FADDE7 /* Parking8-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956E17EF3B4D00FADDE7 /* Parking8-640x1136.png */; };
+		1B80957C17EF3B4D00FADDE7 /* Parking8-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956F17EF3B4D00FADDE7 /* Parking8-640x960.png */; };
+		1B80957D17EF3B4D00FADDE7 /* ParkingIcon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80957017EF3B4D00FADDE7 /* ParkingIcon-512x512.png */; };
 		1BF5E5C117EF1A9600612F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C017EF1A9600612F8D /* Foundation.framework */; };
 		1BF5E5C317EF1A9600612F8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C217EF1A9600612F8D /* CoreGraphics.framework */; };
 		1BF5E5C517EF1A9600612F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C417EF1A9600612F8D /* UIKit.framework */; };
@@ -21,23 +35,9 @@
 		1BF5E5E217EF1A9600612F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C417EF1A9600612F8D /* UIKit.framework */; };
 		1BF5E5EA17EF1A9600612F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5E817EF1A9600612F8D /* InfoPlist.strings */; };
 		1BF5E5EC17EF1A9600612F8D /* ParkingLocation1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5E5EB17EF1A9600612F8D /* ParkingLocation1Tests.m */; };
-		1BF5E60817EF1BAA00612F8D /* parkingIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5F617EF1BAA00612F8D /* parkingIcon-120.png */; };
-		1BF5E60917EF1BAA00612F8D /* parkingIcon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5F717EF1BAA00612F8D /* parkingIcon-72.png */; };
-		1BF5E60A17EF1BAA00612F8D /* parkingIcon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5F817EF1BAA00612F8D /* parkingIcon-80.png */; };
-		1BF5E60B17EF1BAA00612F8D /* parkingIcon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5F917EF1BAA00612F8D /* parkingIcon-Small-50.png */; };
-		1BF5E60C17EF1BAA00612F8D /* parkingIcon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5FA17EF1BAA00612F8D /* parkingIcon-Small.png */; };
-		1BF5E60D17EF1BAA00612F8D /* parkingIcon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5FB17EF1BAA00612F8D /* parkingIcon-Small@2x.png */; };
-		1BF5E60E17EF1BAA00612F8D /* parkingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5FC17EF1BAA00612F8D /* parkingIcon.png */; };
-		1BF5E60F17EF1BAA00612F8D /* parkingIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5FD17EF1BAA00612F8D /* parkingIcon@2x.png */; };
-		1BF5E61017EF1BAA00612F8D /* parkingIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E5FE17EF1BAA00612F8D /* parkingIconLarge.png */; };
-		1BF5E61417EF1BAA00612F8D /* Parking8Default1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E60317EF1BAA00612F8D /* Parking8Default1.png */; };
-		1BF5E61517EF1BAA00612F8D /* Parking8Default1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E60417EF1BAA00612F8D /* Parking8Default1@2x.png */; };
-		1BF5E61617EF1BAA00612F8D /* Parking8Default2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E60517EF1BAA00612F8D /* Parking8Default2-568h@2x.png */; };
-		1BF5E61817EF1BAA00612F8D /* ParkingLargeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E60717EF1BAA00612F8D /* ParkingLargeIcon.png */; };
 		1BF5E61A17EF2E5F00612F8D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E61917EF2E5F00612F8D /* CoreImage.framework */; };
 		1BF5E61C17EF2E6800612F8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E61B17EF2E6800612F8D /* MapKit.framework */; };
 		1BF5E61E17EF2E7400612F8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E61D17EF2E7400612F8D /* CoreLocation.framework */; };
-		1BF5E62017EF30B200612F8D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5E61F17EF30B200612F8D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B80956017EF39A700FADDE7 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		1B80956317EF3B4D00FADDE7 /* parkingIcon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-114.png"; sourceTree = "<group>"; };
+		1B80956417EF3B4D00FADDE7 /* parkingIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-120.png"; sourceTree = "<group>"; };
+		1B80956517EF3B4D00FADDE7 /* parkingIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-29.png"; sourceTree = "<group>"; };
+		1B80956617EF3B4D00FADDE7 /* parkingIcon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-57.png"; sourceTree = "<group>"; };
+		1B80956717EF3B4D00FADDE7 /* parkingIcon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-58.png"; sourceTree = "<group>"; };
+		1B80956817EF3B4D00FADDE7 /* parkingIcon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-72.png"; sourceTree = "<group>"; };
+		1B80956917EF3B4D00FADDE7 /* parkingIcon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-80.png"; sourceTree = "<group>"; };
+		1B80956A17EF3B4D00FADDE7 /* parkingIcon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-Small-50.png"; sourceTree = "<group>"; };
+		1B80956B17EF3B4D00FADDE7 /* parkingIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkingIconLarge.png; sourceTree = "<group>"; };
+		1B80956D17EF3B4D00FADDE7 /* Parking8-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parking8-320x480.png"; sourceTree = "<group>"; };
+		1B80956E17EF3B4D00FADDE7 /* Parking8-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parking8-640x1136.png"; sourceTree = "<group>"; };
+		1B80956F17EF3B4D00FADDE7 /* Parking8-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parking8-640x960.png"; sourceTree = "<group>"; };
+		1B80957017EF3B4D00FADDE7 /* ParkingIcon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ParkingIcon-512x512.png"; sourceTree = "<group>"; };
 		1BF5E5BD17EF1A9600612F8D /* ParkingLocation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingLocation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF5E5C017EF1A9600612F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BF5E5C217EF1A9600612F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,23 +84,9 @@
 		1BF5E5E717EF1A9600612F8D /* ParkingLocation1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkingLocation1Tests-Info.plist"; sourceTree = "<group>"; };
 		1BF5E5E917EF1A9600612F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BF5E5EB17EF1A9600612F8D /* ParkingLocation1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkingLocation1Tests.m; sourceTree = "<group>"; };
-		1BF5E5F617EF1BAA00612F8D /* parkingIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-120.png"; sourceTree = "<group>"; };
-		1BF5E5F717EF1BAA00612F8D /* parkingIcon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-72.png"; sourceTree = "<group>"; };
-		1BF5E5F817EF1BAA00612F8D /* parkingIcon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-80.png"; sourceTree = "<group>"; };
-		1BF5E5F917EF1BAA00612F8D /* parkingIcon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-Small-50.png"; sourceTree = "<group>"; };
-		1BF5E5FA17EF1BAA00612F8D /* parkingIcon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-Small.png"; sourceTree = "<group>"; };
-		1BF5E5FB17EF1BAA00612F8D /* parkingIcon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon-Small@2x.png"; sourceTree = "<group>"; };
-		1BF5E5FC17EF1BAA00612F8D /* parkingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkingIcon.png; sourceTree = "<group>"; };
-		1BF5E5FD17EF1BAA00612F8D /* parkingIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parkingIcon@2x.png"; sourceTree = "<group>"; };
-		1BF5E5FE17EF1BAA00612F8D /* parkingIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkingIconLarge.png; sourceTree = "<group>"; };
-		1BF5E60317EF1BAA00612F8D /* Parking8Default1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parking8Default1.png; sourceTree = "<group>"; };
-		1BF5E60417EF1BAA00612F8D /* Parking8Default1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parking8Default1@2x.png"; sourceTree = "<group>"; };
-		1BF5E60517EF1BAA00612F8D /* Parking8Default2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parking8Default2-568h@2x.png"; sourceTree = "<group>"; };
-		1BF5E60717EF1BAA00612F8D /* ParkingLargeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParkingLargeIcon.png; sourceTree = "<group>"; };
 		1BF5E61917EF2E5F00612F8D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		1BF5E61B17EF2E6800612F8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1BF5E61D17EF2E7400612F8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		1BF5E61F17EF30B200612F8D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +116,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B80956217EF3B4D00FADDE7 /* Parking Icons1 */ = {
+			isa = PBXGroup;
+			children = (
+				1B80956317EF3B4D00FADDE7 /* parkingIcon-114.png */,
+				1B80956417EF3B4D00FADDE7 /* parkingIcon-120.png */,
+				1B80956517EF3B4D00FADDE7 /* parkingIcon-29.png */,
+				1B80956617EF3B4D00FADDE7 /* parkingIcon-57.png */,
+				1B80956717EF3B4D00FADDE7 /* parkingIcon-58.png */,
+				1B80956817EF3B4D00FADDE7 /* parkingIcon-72.png */,
+				1B80956917EF3B4D00FADDE7 /* parkingIcon-80.png */,
+				1B80956A17EF3B4D00FADDE7 /* parkingIcon-Small-50.png */,
+				1B80956B17EF3B4D00FADDE7 /* parkingIconLarge.png */,
+				1B80956C17EF3B4D00FADDE7 /* splashScreen */,
+			);
+			path = "Parking Icons1";
+			sourceTree = "<group>";
+		};
+		1B80956C17EF3B4D00FADDE7 /* splashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1B80956D17EF3B4D00FADDE7 /* Parking8-320x480.png */,
+				1B80956E17EF3B4D00FADDE7 /* Parking8-640x1136.png */,
+				1B80956F17EF3B4D00FADDE7 /* Parking8-640x960.png */,
+				1B80957017EF3B4D00FADDE7 /* ParkingIcon-512x512.png */,
+			);
+			path = splashScreen;
+			sourceTree = "<group>";
+		};
 		1BF5E5B417EF1A9600612F8D = {
 			isa = PBXGroup;
 			children = (
-				1BF5E61F17EF30B200612F8D /* Default-568h@2x.png */,
-				1BF5E5F517EF1BAA00612F8D /* Parking Icons */,
 				1BF5E5C617EF1A9600612F8D /* ParkingLocation1 */,
 				1BF5E5E517EF1A9600612F8D /* ParkingLocation1Tests */,
 				1BF5E5BF17EF1A9600612F8D /* Frameworks */,
 				1BF5E5BE17EF1A9600612F8D /* Products */,
+				1B80956217EF3B4D00FADDE7 /* Parking Icons1 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +187,7 @@
 				1BF5E5D517EF1A9600612F8D /* ViewController.h */,
 				1BF5E5D617EF1A9600612F8D /* ViewController.m */,
 				1BF5E5D817EF1A9600612F8D /* Images.xcassets */,
+				1B80956017EF39A700FADDE7 /* Images-2.xcassets */,
 				1BF5E5C717EF1A9600612F8D /* Supporting Files */,
 			);
 			path = ParkingLocation1;
@@ -192,34 +220,6 @@
 				1BF5E5E817EF1A9600612F8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1BF5E5F517EF1BAA00612F8D /* Parking Icons */ = {
-			isa = PBXGroup;
-			children = (
-				1BF5E5F617EF1BAA00612F8D /* parkingIcon-120.png */,
-				1BF5E5F717EF1BAA00612F8D /* parkingIcon-72.png */,
-				1BF5E5F817EF1BAA00612F8D /* parkingIcon-80.png */,
-				1BF5E5F917EF1BAA00612F8D /* parkingIcon-Small-50.png */,
-				1BF5E5FA17EF1BAA00612F8D /* parkingIcon-Small.png */,
-				1BF5E5FB17EF1BAA00612F8D /* parkingIcon-Small@2x.png */,
-				1BF5E5FC17EF1BAA00612F8D /* parkingIcon.png */,
-				1BF5E5FD17EF1BAA00612F8D /* parkingIcon@2x.png */,
-				1BF5E5FE17EF1BAA00612F8D /* parkingIconLarge.png */,
-				1BF5E5FF17EF1BAA00612F8D /* splashScreen */,
-			);
-			path = "Parking Icons";
-			sourceTree = "<group>";
-		};
-		1BF5E5FF17EF1BAA00612F8D /* splashScreen */ = {
-			isa = PBXGroup;
-			children = (
-				1BF5E60317EF1BAA00612F8D /* Parking8Default1.png */,
-				1BF5E60417EF1BAA00612F8D /* Parking8Default1@2x.png */,
-				1BF5E60517EF1BAA00612F8D /* Parking8Default2-568h@2x.png */,
-				1BF5E60717EF1BAA00612F8D /* ParkingLargeIcon.png */,
-			);
-			path = splashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,23 +298,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B80957D17EF3B4D00FADDE7 /* ParkingIcon-512x512.png in Resources */,
+				1B80957C17EF3B4D00FADDE7 /* Parking8-640x960.png in Resources */,
+				1B80956117EF39A700FADDE7 /* Images-2.xcassets in Resources */,
 				1BF5E5D917EF1A9600612F8D /* Images.xcassets in Resources */,
-				1BF5E61417EF1BAA00612F8D /* Parking8Default1.png in Resources */,
-				1BF5E60B17EF1BAA00612F8D /* parkingIcon-Small-50.png in Resources */,
-				1BF5E60917EF1BAA00612F8D /* parkingIcon-72.png in Resources */,
-				1BF5E60C17EF1BAA00612F8D /* parkingIcon-Small.png in Resources */,
-				1BF5E62017EF30B200612F8D /* Default-568h@2x.png in Resources */,
+				1B80957517EF3B4D00FADDE7 /* parkingIcon-58.png in Resources */,
+				1B80957917EF3B4D00FADDE7 /* parkingIconLarge.png in Resources */,
+				1B80957717EF3B4D00FADDE7 /* parkingIcon-80.png in Resources */,
+				1B80957317EF3B4D00FADDE7 /* parkingIcon-29.png in Resources */,
+				1B80957B17EF3B4D00FADDE7 /* Parking8-640x1136.png in Resources */,
+				1B80957A17EF3B4D00FADDE7 /* Parking8-320x480.png in Resources */,
+				1B80957417EF3B4D00FADDE7 /* parkingIcon-57.png in Resources */,
 				1BF5E5CB17EF1A9600612F8D /* InfoPlist.strings in Resources */,
-				1BF5E61517EF1BAA00612F8D /* Parking8Default1@2x.png in Resources */,
-				1BF5E60F17EF1BAA00612F8D /* parkingIcon@2x.png in Resources */,
-				1BF5E60A17EF1BAA00612F8D /* parkingIcon-80.png in Resources */,
-				1BF5E61817EF1BAA00612F8D /* ParkingLargeIcon.png in Resources */,
-				1BF5E61017EF1BAA00612F8D /* parkingIconLarge.png in Resources */,
-				1BF5E61617EF1BAA00612F8D /* Parking8Default2-568h@2x.png in Resources */,
+				1B80957817EF3B4D00FADDE7 /* parkingIcon-Small-50.png in Resources */,
+				1B80957117EF3B4D00FADDE7 /* parkingIcon-114.png in Resources */,
+				1B80957217EF3B4D00FADDE7 /* parkingIcon-120.png in Resources */,
 				1BF5E5D417EF1A9600612F8D /* Main.storyboard in Resources */,
-				1BF5E60817EF1BAA00612F8D /* parkingIcon-120.png in Resources */,
-				1BF5E60D17EF1BAA00612F8D /* parkingIcon-Small@2x.png in Resources */,
-				1BF5E60E17EF1BAA00612F8D /* parkingIcon.png in Resources */,
+				1B80957617EF3B4D00FADDE7 /* parkingIcon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +460,8 @@
 		1BF5E5F017EF1A9600612F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-5";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-5";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-6";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-6";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkingLocation1/ParkingLocation1-Prefix.pch";
 				INFOPLIST_FILE = "ParkingLocation1/ParkingLocation1-Info.plist";
@@ -473,8 +473,8 @@
 		1BF5E5F117EF1A9600612F8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-5";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-5";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-6";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-6";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkingLocation1/ParkingLocation1-Prefix.pch";
 				INFOPLIST_FILE = "ParkingLocation1/ParkingLocation1-Info.plist";
@@ -544,6 +544,7 @@
 				1BF5E5F117EF1A9600612F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF5E5F217EF1A9600612F8D /* Build configuration list for PBXNativeTarget "ParkingLocation1Tests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				1BF5E5F417EF1A9600612F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
