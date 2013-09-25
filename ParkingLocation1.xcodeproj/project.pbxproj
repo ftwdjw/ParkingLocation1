@@ -23,6 +23,7 @@
 		1B80956117EF39A700FADDE7 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B80956017EF39A700FADDE7 /* Images-2.xcassets */; };
 		1BCD3ECB17EF4A09001A237D /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD3ECA17EF4A09001A237D /* MyAnnotation.m */; };
 		1BCD3ECE17EF4A93001A237D /* CrumbPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD3ECD17EF4A93001A237D /* CrumbPath.m */; };
+		1BDA792517F1A57400FFCA0D /* CrumbPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA792417F1A57400FFCA0D /* CrumbPathView.m */; };
 		1BF5E5C117EF1A9600612F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C017EF1A9600612F8D /* Foundation.framework */; };
 		1BF5E5C317EF1A9600612F8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C217EF1A9600612F8D /* CoreGraphics.framework */; };
 		1BF5E5C517EF1A9600612F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5C417EF1A9600612F8D /* UIKit.framework */; };
@@ -70,6 +71,8 @@
 		1BCD3ECA17EF4A09001A237D /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		1BCD3ECC17EF4A93001A237D /* CrumbPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbPath.h; sourceTree = "<group>"; };
 		1BCD3ECD17EF4A93001A237D /* CrumbPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbPath.m; sourceTree = "<group>"; };
+		1BDA792317F1A57400FFCA0D /* CrumbPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbPathView.h; sourceTree = "<group>"; };
+		1BDA792417F1A57400FFCA0D /* CrumbPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbPathView.m; sourceTree = "<group>"; };
 		1BF5E5BD17EF1A9600612F8D /* ParkingLocation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingLocation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF5E5C017EF1A9600612F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BF5E5C217EF1A9600612F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +158,8 @@
 				1BCD3ECA17EF4A09001A237D /* MyAnnotation.m */,
 				1BCD3ECC17EF4A93001A237D /* CrumbPath.h */,
 				1BCD3ECD17EF4A93001A237D /* CrumbPath.m */,
+				1BDA792317F1A57400FFCA0D /* CrumbPathView.h */,
+				1BDA792417F1A57400FFCA0D /* CrumbPathView.m */,
 			);
 			name = overlay;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF5E5D717EF1A9600612F8D /* ViewController.m in Sources */,
+				1BDA792517F1A57400FFCA0D /* CrumbPathView.m in Sources */,
 				1BF5E5D117EF1A9600612F8D /* AppDelegate.m in Sources */,
 				1BCD3ECE17EF4A93001A237D /* CrumbPath.m in Sources */,
 				1BCD3ECB17EF4A09001A237D /* MyAnnotation.m in Sources */,

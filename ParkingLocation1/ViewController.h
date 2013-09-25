@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <AVFoundation/AVFoundation.h>
+#import <MapKit/MapKit.h>
+#import "AppDelegate.h"
 
+@interface ViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *map;
+
+- (IBAction)switchChanged1:(id)sender;
+
+- (IBAction)showInfo:(id)sender;
 @end
